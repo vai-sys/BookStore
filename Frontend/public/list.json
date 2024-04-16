@@ -1,0 +1,62 @@
+[
+    {
+        "id":1,
+        "name":"storybook",
+        "Title":"balBharti", 
+        "price":59,
+        "category":"free",
+        "Image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149334862.jpg?t=st=1713265452~exp=1713269052~hmac=4f7203906003805de6626f911156c900c8894a0ebd42590b146ec81e2dba83e1&w=740 "
+
+
+    },
+    {
+        "id":2,
+        "name":"Comedybook",
+        "Title":"balBharti",
+        "price":95,
+        "category":"Entertainment",
+        "Image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149334862.jpg?t=st=1713265452~exp=1713269052~hmac=4f7203906003805de6626f911156c900c8894a0ebd42590b146ec81e2dba83e1&w=740 "
+
+
+    },
+    {
+        "id":3,
+        "name":"novel",
+        "Title":"balBharti",
+        "price":70,
+        "category":"",
+        "Image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149334862.jpg?t=st=1713265452~exp=1713269052~hmac=4f7203906003805de6626f911156c900c8894a0ebd42590b146ec81e2dba83e1&w=740 "
+
+
+    },
+    {
+        "id":4,
+        "name":"poem",
+        "Title":"balBharti",
+        "price":80,
+        "category":"free",
+        "Image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149334862.jpg?t=st=1713265452~exp=1713269052~hmac=4f7203906003805de6626f911156c900c8894a0ebd42590b146ec81e2dba83e1&w=740 "
+
+
+    },
+    {
+        "id":5,
+        "name":"sportsbook",
+        "Title":"balBharti",
+        "price":89,
+        "category":"free",
+        "Image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149334862.jpg?t=st=1713265452~exp=1713269052~hmac=4f7203906003805de6626f911156c900c8894a0ebd42590b146ec81e2dba83e1&w=740 "
+
+
+    },
+    {
+        "id":6,
+        "name":"cookbook",
+        "Title":"balBharti",
+        "price":30,
+        "category":"free",
+        "Image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149334862.jpg?t=st=1713265452~exp=1713269052~hmac=4f7203906003805de6626f911156c900c8894a0ebd42590b146ec81e2dba83e1&w=740 "
+
+
+    }
+]
