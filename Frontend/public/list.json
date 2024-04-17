@@ -22,9 +22,9 @@
     {
         "id":3,
         "name":"novel",
-        "Title":"balBharti",
+        "Title":"chavaa", 
         "price":70,
-        "category":"",
+        "category":"novel",
         "Image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149334862.jpg?t=st=1713265452~exp=1713269052~hmac=4f7203906003805de6626f911156c900c8894a0ebd42590b146ec81e2dba83e1&w=740 "
 
 
@@ -42,7 +42,7 @@
     {
         "id":5,
         "name":"sportsbook",
-        "Title":"balBharti",
+        "Title":"great play book",
         "price":89,
         "category":"free",
         "Image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149334862.jpg?t=st=1713265452~exp=1713269052~hmac=4f7203906003805de6626f911156c900c8894a0ebd42590b146ec81e2dba83e1&w=740 "
@@ -52,7 +52,7 @@
     {
         "id":6,
         "name":"cookbook",
-        "Title":"balBharti",
+        "Title":"Madhura's kitchen",
         "price":30,
         "category":"free",
         "Image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149334862.jpg?t=st=1713265452~exp=1713269052~hmac=4f7203906003805de6626f911156c900c8894a0ebd42590b146ec81e2dba83e1&w=740 "

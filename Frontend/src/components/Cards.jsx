@@ -11,9 +11,9 @@ const Cards = ({ item }) => {
             {item.Title}
             <div className="badge badge-secondary">NEW</div>
           </h2>
-          <p>{item.Description}</p> 
+          <p>{item.name}</p> 
           <div className="justify-end card-actions">
-            <div className="badge badge-outline">{item.Category}</div> 
+            <div className="badge badge-outline">{item.category}</div> 
             <div className="badge badge-outline">{item.price}</div> 
           </div>
         </div>
