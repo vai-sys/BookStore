@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Signup from './components/Signup'
 function App() {
   const router = createBrowserRouter([
     {
@@ -24,6 +25,10 @@ function App() {
     {
       path: "/contact",
       element: <><Navbar/><Contact /><Footer/></>
+    },
+    {
+      path:"/signup",
+      element:<Signup/>
     },
     
    
