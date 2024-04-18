@@ -1,6 +1,6 @@
 
 import { NavLink } from 'react-router-dom'
-
+import Login from './Login'
 
 
 const Navbar = () => {
@@ -35,8 +35,10 @@ const Navbar = () => {
   
 </label>
 <div className='px-3 py-3 m-2'>
-     <a className="text-white btn bg-slate-800">Login</a>
-   </div>
+    <button className="text-white btn bg-slate-800 hover:bg-slate-900 hover:text-white" onClick={() => {document.getElementById('my_modal_5').showModal()}}>Login</button>
+    <Login/>
+</div>
+
        </div>
      
       </nav>
