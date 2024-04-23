@@ -1,13 +1,35 @@
-import React from 'react'
-import list from '../../public/list.json'
+
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Cards from './Cards'
+import axios from 'axios';
+import { useState,useEffect } from 'react';
 
 
 const Freebook = () => {
-    const filteredData = list.filter(data => data.category === "free");
+  const [book, setBook] = useState([]);
+  const [loading, setLoading] = useState(true); // State for loading indicator
+  const [error, setError] = useState(null); // State for error handling
+
+
+  useEffect(() => {
+    const getBook = async () => {
+      try {
+        const res = await axios.get("http://localhost:3000/book");
+        console.log(res.data);
+        setBook(res.data);
+        setLoading(false); // Data fetching is complete
+      } catch(err) {
+        console.error("Error fetching data:", err);
+        setError(err); // Set error state
+        setLoading(false); // Data fetching failed
+      }
+    };
+
+    getBook(); // Call getBook function to fetch data when component mounts
+  }, []);
+    const filteredData = book.filter(data => data.category === "free");
     console.log(filteredData);
     const settings = {
         dots: true,

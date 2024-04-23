@@ -30,8 +30,10 @@ const express = require('express');
 const dotenv = require("dotenv");
 const mongoose = require('mongoose');
 const bookRoute=require("./route/book.route")
+ const cors= require("cors");
 
 const app = express();
+app.use(cors());
 
 dotenv.config();
 const port = process.env.PORT || 3000;
