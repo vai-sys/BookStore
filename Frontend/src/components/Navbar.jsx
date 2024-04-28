@@ -9,12 +9,16 @@ const Navbar = () => {
   return (
     <div>
       <nav  className='flex items-center justify-between'>
-        <div><h1 className='text-2xl font-bold text-gray-900 '>Book<span className='text-2xl font-bold text-pink-600'>Store</span></h1></div>
+        <div><h1 className='text-2xl font-bold text-gray-900 '>Employee<span className='text-2xl font-bold text-pink-600'>Data</span></h1></div>
         <div className='flex items-center justify-between gap-8 font-medium'>
         <NavLink className={(e)=>{return e.isActive?"red": "" }} to="/"><li className='px-3 list-none text-md'>Home</li></NavLink>
+        <NavLink className={(e)=>{return e.isActive?"red": "" }} to="/course"><li className='px-3 list-none text-md'>Books</li></NavLink>
+
         <NavLink className={(e)=>{return e.isActive?"red": "" }} to="/about"><li className='px-3 list-none text-md'>About</li></NavLink>
-        <NavLink className={(e)=>{return e.isActive?"red": "" }} to="/course"><li className='px-3 list-none text-md'>Course</li></NavLink>
         <NavLink className={(e)=>{return e.isActive?"red": "" }} to="/contact"><li className='px-3 list-none text-md'>Contact</li></NavLink>
+        
+      
+        
         </div>
        <div className='flex items-center justify-between gap-7'>
 
@@ -23,7 +27,7 @@ const Navbar = () => {
    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="w-4 h-4 opacity-70"><path fillRule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clipRule="evenodd" /></svg>
  </label>
         
-       <label className="swap swap-rotate  ">
+       <label className="swap swap-rotate ">
   
   <input type="checkbox" className="theme-controller" value="synthwave" />
   
